@@ -82,3 +82,104 @@
 	1. Solo correos @nexusguard.com autorizados pueden registrarse.
 	2. Los tokens de sesión expiran tras 8 horas de actividad.
 	3. Se requiere conexión constante a la base de datos MySQL para cualquier operación de lectura o escritura.
+
+### Arquitectura del Sistema
+
+## Descripción General
+
+**Nexus Guard** implementa una arquitectura cliente-servidor en capas, diseñada para separar responsabilidades y facilitar el mantenimiento, la seguridad y la escalabilidad del sistema.
+
+La arquitectura se divide en tres capas principales:
+---
+## 1. Capa de Presentación (Frontend)
+
+La capa de presentación corresponde a la interfaz gráfica con la que interactúan los usuarios del sistema.
+
+Fue desarrollada utilizando:
+
+- HTML5
+- CSS3
+- JavaScript puro
+
+Esta capa permite a los usuarios:
+
+- Iniciar sesión
+- Solicitar citas
+- Gestionar registros
+- Consultar información en tiempo real
+
+El frontend se ejecuta en el navegador y se comunica con el backend mediante peticiones HTTP utilizando `fetch()` y formato JSON.
+
+### Funciones principales
+
+- Interfaz responsiva
+- Formularios dinámicos
+- Dashboard con estadísticas
+- Validación básica de datos
+- Comunicación con API REST
+
+---
+
+## 2. Capa de Aplicación (Backend)
+
+La lógica del sistema se encuentra en un servidor desarrollado con:
+
+- Node.js
+- Express.js
+
+El backend procesa las solicitudes realizadas desde el frontend y controla:
+
+- Autenticación de usuarios
+- Gestión CRUD de citas
+- Validación de información
+- Generación de tokens JWT
+- Seguridad y control de acceso
+- Reglas de negocio
+
+El sistema implementa una API REST para conectar el frontend con la base de datos.
+
+### Tecnologías utilizadas
+
+- Express.js
+- JWT (JSON Web Tokens)
+- bcryptjs
+- cors
+
+### Funciones principales
+
+- Inicio de sesión seguro
+- Gestión de usuarios autorizados
+- Administración de citas
+- Protección de rutas
+- Validación de sesiones
+- Manejo de datos JSON
+
+---
+
+## 3. Capa de Datos (Base de Datos)
+
+La persistencia de la información se administra mediante una base de datos relacional utilizando:
+
+- MySQL
+
+En esta capa se almacenan:
+
+- Usuarios
+- Citas
+- Accesos
+- Bitácoras
+- Roles y permisos
+
+La base de datos utiliza claves primarias y foráneas para garantizar la integridad referencial y mantener la consistencia de los datos.
+
+### Funciones principales
+
+- Almacenamiento de información
+- Consultas de datos
+- Relación entre entidades
+- Respaldo de registros
+- Gestión de historial y bitácoras
+
+<img width="840" height="341" alt="image" src="https://github.com/user-attachments/assets/b44fb5d2-dbd5-4452-bcc9-f27a3dac6d73" />
+
+
