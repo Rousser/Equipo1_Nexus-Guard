@@ -86,7 +86,7 @@
 * Bash:
   - cd backend
   - npm install
-  - npm insatall corp
+  - npm install bcryptjs
 
 3. Instalar extencion Live Server en Visual Studio Code
 
