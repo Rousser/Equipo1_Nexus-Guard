@@ -73,21 +73,7 @@
   * Git/GitHub (control de versiones).
 
 ---
-
-## 5. Instalación Requisitos de software y hardware:
-
-* **Visual Studio Code**
-* **Node.js** (v18 o superior).
-* Base de datos **MySQL** o **PostgreSQL** instalada localmente o en servidor.
-* Navegador web moderno.
-  * **Google Chrome**
-  * **Mozilla Firefox**
-* Sistema opeerativo Windows o MacOS.
-* **4GB RAM** mínimo y **1GB** de espacio libre en disco.
-
----
-
-## 6. Pasos detallados para instalación:
+## 5. Pasos detallados para instalación:
 
 1. Clona el repositorio de GitHub:
 
