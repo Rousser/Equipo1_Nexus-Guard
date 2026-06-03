@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1780284368117",
+    "usuario": "Admin",
+    "accion": "CREAR_USUARIO",
+    "detalle": "Nuevo usuario creado: Luis (admin)",
+    "fechaHora": "31/5/2026, 8:26:08 p.m."
+  },
+  {
+    "id": "1780284403398",
+    "usuario": "Admin",
+    "accion": "EDITAR_USUARIO",
+    "detalle": "Usuario actualizado: Juan",
+    "fechaHora": "31/5/2026, 8:26:43 p.m."
+  },
+  {
+    "id": "1780284484054",
+    "usuario": "Carlos",
+    "accion": "CREAR_CITA",
+    "detalle": "Nueva cita registrada para: Luis",
+    "fechaHora": "31/5/2026, 8:28:04 p.m."
+  },
+  {
+    "id": "1780284517285",
+    "usuario": "Jose Luis Toscano Sosa",
+    "accion": "LOGIN",
+    "detalle": "Inicio de sesion: jtoscano@nexusguard.com",
+    "fechaHora": "31/5/2026, 8:28:37 p.m."
+  },
+  {
+    "id": "1780284549773",
+    "usuario": "Vigilante Caseta Principal",
+    "accion": "LOGIN",
+    "detalle": "Inicio de sesion: vigilancia1@nexusguard.com",
+    "fechaHora": "31/5/2026, 8:29:09 p.m."
+  },
+  {
+    "id": "1780284638164",
+    "usuario": "Sistema",
+    "accion": "CREAR_CITA",
+    "detalle": "Nueva cita registrada para: Carlos",
+    "fechaHora": "31/5/2026, 8:30:38 p.m."
+  },
+  {
+    "id": "1780284662745",
+    "usuario": "Sistema",
+    "accion": "EDITAR_CITA",
+    "detalle": "Cita actualizada. Estado: Confirmada",
+    "fechaHora": "31/5/2026, 8:31:02 p.m."
+  },
+  {
+    "id": "1780284718178",
+    "usuario": "Vigilante Caseta Secundaria",
+    "accion": "LOGIN",
+    "detalle": "Inicio de sesion: vigilancia2@nexusguard.com",
+    "fechaHora": "31/5/2026, 8:31:58 p.m."
+  },
+  {
+    "id": "1780284731209",
+    "usuario": "Jose Luis Toscano Sosa",
+    "accion": "LOGIN",
+    "detalle": "Inicio de sesion: jtoscano@nexusguard.com",
+    "fechaHora": "31/5/2026, 8:32:11 p.m."
+  },
+  {
+    "id": "1780284762768",
+    "usuario": "Sistema",
+    "accion": "EDITAR_CITA",
+    "detalle": "Cita actualizada. Estado: Confirmada",
+    "fechaHora": "31/5/2026, 8:32:42 p.m."
+  }
+]

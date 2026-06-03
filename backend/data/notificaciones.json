@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1780283993733",
+    "destinatario": "Jose Luis Toscano Sosa",
+    "titulo": "📅 Nueva cita programada",
+    "mensaje": "Luis de Propia tiene una cita contigo el 2026-05-31 a las 08:30. Folio: NP-6828",
+    "tipo": "nueva_cita",
+    "leida": true,
+    "fechaHora": "31/5/2026, 8:19:53 p.m."
+  },
+  {
+    "id": "1780283993735",
+    "destinatario": "Jose Luis Toscano Sosa",
+    "titulo": "⚠️ Visita no programada requiere autorización",
+    "mensaje": "Luis de Propia llegó sin cita y solicita verte. Folio: NP-6828. Por favor autoriza o rechaza su acceso.",
+    "tipo": "visita_no_programada",
+    "leida": true,
+    "fechaHora": "31/5/2026, 8:19:53 p.m."
+  },
+  {
+    "id": "1780284220278",
+    "destinatario": "José Luis Toscano Sosa",
+    "titulo": "❌ Tu cita fue rechazada",
+    "mensaje": "La cita con Luis (Folio: NP-6828) cambió a estado: Rechazada",
+    "tipo": "cambio_estado",
+    "leida": false,
+    "fechaHora": "31/5/2026, 8:23:40 p.m."
+  },
+  {
+    "id": "1780284484054",
+    "destinatario": "José Luis Toscano Sosa",
+    "titulo": "📅 Nueva cita programada",
+    "mensaje": "Luis de Independiente tiene una cita contigo el 2026-05-31 a las 10:00. Folio: SGC-5862",
+    "tipo": "nueva_cita",
+    "leida": false,
+    "fechaHora": "31/5/2026, 8:28:04 p.m."
+  },
+  {
+    "id": "1780284638164",
+    "destinatario": "Jose Luis Toscano Sosa",
+    "titulo": "📅 Nueva cita programada",
+    "mensaje": "Carlos de Coca Cola tiene una cita contigo el 2026-05-31 a las 00:30. Folio: NP-6745",
+    "tipo": "nueva_cita",
+    "leida": true,
+    "fechaHora": "31/5/2026, 8:30:38 p.m."
+  },
+  {
+    "id": "1780284638166",
+    "destinatario": "Jose Luis Toscano Sosa",
+    "titulo": "⚠️ Visita no programada requiere autorización",
+    "mensaje": "Carlos de Coca Cola llegó sin cita y solicita verte. Folio: NP-6745. Por favor autoriza o rechaza su acceso.",
+    "tipo": "visita_no_programada",
+    "leida": true,
+    "fechaHora": "31/5/2026, 8:30:38 p.m."
+  },
+  {
+    "id": "1780284662745",
+    "destinatario": "Jose Luis Toscano Sosa",
+    "titulo": "✅ Tu cita fue confirmada",
+    "mensaje": "La cita con Carlos (Folio: NP-6745) cambió a estado: Confirmada",
+    "tipo": "cambio_estado",
+    "leida": true,
+    "fechaHora": "31/5/2026, 8:31:02 p.m."
+  },
+  {
+    "id": "1780284762768",
+    "destinatario": "José Luis Toscano Sosa",
+    "titulo": "✅ Tu cita fue confirmada",
+    "mensaje": "La cita con Luis (Folio: SGC-5862) cambió a estado: Confirmada",
+    "tipo": "cambio_estado",
+    "leida": false,
+    "fechaHora": "31/5/2026, 8:32:42 p.m."
+  }
+]
