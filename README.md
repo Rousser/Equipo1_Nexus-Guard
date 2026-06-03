@@ -86,6 +86,7 @@
 * Bash:
   - cd backend
   - npm install
+  - npm insatall corp
 
 3. Instalar extencion Live Server en Visual Studio Code
 
